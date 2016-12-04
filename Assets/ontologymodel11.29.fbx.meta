@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: f2d4362b91fb159489b754b3acd095d0
+timeCreated: 1480472590
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bend1Handle
+    100002: ceiling
+    100004: clothespin:Clothespin
+    100006: clothespin:Spring
+    100008: Cone_01:H1
+    100010: cones
+    100012: d_model:Group_003
+    100014: group12
+    100016: group13
+    100018: group14
+    100020: group15
+    100022: //RootNode
+    100024: ontologytext:OntText
+    100026: OntText
+    100028: pCylinder1
+    100030: pillars
+    100032: pSolid5
+    100034: rack
+    100036: roof
+    100038: shelf1
+    100040: shelf2
+    100042: sign
+    100044: steps_floor
+    100046: tops
+    400000: bend1Handle
+    400002: ceiling
+    400004: clothespin:Clothespin
+    400006: clothespin:Spring
+    400008: Cone_01:H1
+    400010: cones
+    400012: d_model:Group_003
+    400014: group12
+    400016: group13
+    400018: group14
+    400020: group15
+    400022: //RootNode
+    400024: ontologytext:OntText
+    400026: OntText
+    400028: pCylinder1
+    400030: pillars
+    400032: pSolid5
+    400034: rack
+    400036: roof
+    400038: shelf1
+    400040: shelf2
+    400042: sign
+    400044: steps_floor
+    400046: tops
+    2300000: ceiling
+    2300002: clothespin:Clothespin
+    2300004: clothespin:Spring
+    2300006: d_model:Group_003
+    2300008: ontologytext:OntText
+    2300010: OntText
+    2300012: pCylinder1
+    2300014: pillars
+    2300016: rack
+    2300018: roof
+    2300020: shelf1
+    2300022: shelf2
+    2300024: steps_floor
+    2300026: tops
+    3300000: ceiling
+    3300002: clothespin:Clothespin
+    3300004: clothespin:Spring
+    3300006: d_model:Group_003
+    3300008: ontologytext:OntText
+    3300010: OntText
+    3300012: pCylinder1
+    3300014: pillars
+    3300016: rack
+    3300018: roof
+    3300020: shelf1
+    3300022: shelf2
+    3300024: steps_floor
+    3300026: tops
+    4300000: roof
+    4300002: shelf1
+    4300004: ontologytext:OntText
+    4300006: pCylinder1
+    4300008: OntText
+    4300010: rack
+    4300012: ceiling
+    4300014: d_model:Group_003
+    4300016: tops
+    4300018: pillars
+    4300020: steps_floor
+    4300022: shelf2
+    4300024: clothespin:Clothespin
+    4300026: clothespin:Spring
+    4300028: Cone_01:H1
+    4300030: pSolid5
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Cone_01:H1
+    13700002: pSolid5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 750
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cones
+        weight: 1
+      - path: cones/bend1Handle
+        weight: 1
+      - path: cones/Cone_01:H1
+        weight: 1
+      - path: group14
+        weight: 1
+      - path: group14/ceiling
+        weight: 1
+      - path: group14/d_model:Group_003
+        weight: 1
+      - path: group14/group12
+        weight: 1
+      - path: group14/group13
+        weight: 1
+      - path: group14/pillars
+        weight: 1
+      - path: group14/rack
+        weight: 1
+      - path: group14/roof
+        weight: 1
+      - path: group14/shelf1
+        weight: 1
+      - path: group14/shelf2
+        weight: 1
+      - path: group14/sign
+        weight: 1
+      - path: group14/sign/ontologytext:OntText
+        weight: 1
+      - path: group14/sign/OntText
+        weight: 1
+      - path: group14/sign/pCylinder1
+        weight: 1
+      - path: group14/steps_floor
+        weight: 1
+      - path: group14/tops
+        weight: 1
+      - path: group15
+        weight: 1
+      - path: group15/clothespin:Clothespin
+        weight: 1
+      - path: group15/clothespin:Spring
+        weight: 1
+      - path: pSolid5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

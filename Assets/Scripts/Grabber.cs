@@ -9,12 +9,15 @@ public class Grabber : MonoBehaviour {
 
     private TriggerController triggerController;
 
+		private AudioSource grabberAudioSource;
+
     public void Start()
     {
         triggerController = GetComponent<TriggerController>();
         triggerController.OnTriggerTouchDown += OnTriggerTouchDown;
         triggerController.OnTriggerTouchUp += OnTriggerTouchUp;
         
+				grabberAudioSource = GetComponent<AudioSource> ();
     }
 
     private void OnTriggerTouchDown(TriggerController triggerController)
@@ -26,7 +29,7 @@ public class Grabber : MonoBehaviour {
     {
         DetachPickup();
         //TriggerHandAnimation(HandAnimationType.OnNuetral);
-        transform.FindChild("Hand").gameObject.active = true;
+        //\\transform.FindChild("Hand").gameObject.active = true;
     }
 
 
@@ -75,8 +78,12 @@ public class Grabber : MonoBehaviour {
         currentPickup = pickup;
         currentPickup.AttachToTransform(this.gameObject.transform);
         //TriggerHandAnimation(currentPickup.handAnimationType);
-        transform.FindChild("Hand").gameObject.active = false;
-
+        //\\transform.FindChild("Hand").gameObject.active = false;
+				CollisionSounds collisionSounds = pickup.GetComponent<CollisionSounds> ();
+				if (collisionSounds != null && grabberAudioSource != null)
+				{
+					collisionSounds.PlayGrabSound (grabberAudioSource);
+				}
     }
 
     private void DetachPickup()
